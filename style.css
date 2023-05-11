@@ -1,6 +1,25 @@
 .container
 {
+    height: 50px;
     display: flex;
     /*Valores possíveis principais (row|row=reverse|column-reverse)*/
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: space-around;
+     /*Valores possíveis principais (center|stretch|flex-star|flex-end|baseline)*/
+     align-content: center;
+     /*justify-content: space-between*/
+     flex-wrap: wrap;
+     align-items: center;
+
+}
+.container1
+{
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
 }
